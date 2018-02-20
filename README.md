@@ -1,5 +1,5 @@
 # Glovox
-![init.png](/Images/init.png)
+![Glovox logo.png](/Images/Glovox logo.png)
 
 ## Assignment
 Build a musical instruments (consisting of a glove with a microphone) that let the user use his voice as a musical instrument.
