@@ -1,5 +1,5 @@
 # Glovox
-![init.png](/Images/init.png)
+![logo.png](/Images/logo.png)
 
 ## Assignment
 Build a musical instruments (consisting of a glove with a microphone) that let the user use his voice as a musical instrument.
@@ -59,7 +59,7 @@ It is possible to get a brief description of the effect and its parameters.
 ### Glove
 The Glove has been created using a mini-jack microphone and a glove of synthetic fabric. 
 The microphone has then been sewn inside the glove in such a way to put the sensors exactly halfway between the thumb and the forefinger.
-![glove.png](/Images/glove.png)
+![glove.jpg](/Images/glove.jpg)
 
 The Glove could be finally used, connecting the jack to the computer, the computer to the audio card, launching the application and singing with the glove put under the throat.
 ![reo.png](/Images/reo.png)
