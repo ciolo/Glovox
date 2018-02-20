@@ -1,0 +1,38 @@
+{
+    "effects": [
+    	{
+    		"NoEffects": "Clean audio input"
+    	},
+
+    	{
+    		"Distortion": "Kind of Arc tangent distortion.\n\nApply a kind of arc tangent distortion with controllable drive, followed by a one pole lowpass filter, to the input signal.\n\nParameters:\n- Drive: Amount of distortion applied to the signal, between 0 and 1. Defaults to 0.75.\n- Slope: Slope of the lowpass filter applied after distortion, between 0 and 1. Defaults to 0.5."
+    	},
+
+    	{
+    		"Auto-Wah": "Simulator Auto-Wah effect"
+    	},
+
+    	{
+    		"Chords": "Generates harmonizing voices in synchrony with its audio input.\nUser can choose among several chords."
+    	},
+
+    	{
+    		"Sine Oscillator": "Sinusoidal Oscillator.\n\n Parameters: \n-Phase: Phase of sampling, expressed as a fraction of a cycle (0 to 1). Defaults to 0"
+        },
+        {
+            "BLIT": "Band limited impulse train synthesizer.\n\nImpulse train generator with control over the number of harmonics in the spectrum, which gives oscillators with very low aliasing. \n\nParameters: \n-Phase: Phase of sampling, expressed as a fraction of a cycle (0 to 1). Defaults to 0"
+        },
+        {
+            "Super Saw": "Roland JP-8000 Supersaw emulator.\n\nThis object implements an emulation of the Roland JP-8000 Supersaw algorithm. The shape of the waveform is produced from 7 sawtooth oscillators detuned against each other over a period of time.\n It allows control over the depth of the detuning and the balance between central and sideband oscillators. \n\nParameters: \n-Detune: Depth of the detuning, between 0 and 1. 0 means all oscillators are tuned to the same frequency and 1 means sideband oscillators are at maximum detuning regarding the central frequency. Defaults to 0.5\n-Balance: Balance between central oscillator and sideband oscillators. A value of 0 outputs only the central oscillator while a value of 1 gives a mix of all oscillators with the central one lower than the sidebands. Defaults to 0.7."
+        },
+        {
+            "Phasor": "Simple phase incrementor.\n\nParameters: \n-Phase: Phase of sampling, expressed as a fraction of a cycle (0 to 1). Defaults to 0."
+        },
+        {
+            "RC Oscillator": "Waveform aproximation of a RC circuit.\n\nParameters: \n-Sharpness: Slope of the attack and decay of the waveform, between 0 and 1. A value of 0 gives a triangular waveform and 1 gives almost a square wave. Defaults to 0.25."
+        },
+        {
+            "LF Oscillator": "Band-limited Low Frequency Oscillator with different wave shapes."
+        }
+    ]
+}
