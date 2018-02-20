@@ -93,7 +93,7 @@ Each question has been evaluated with the average and the standard deviation of 
 **Non Musicians**
 ![Res2.png](/Images/Res2.png)
 
-**Globa Evaluation**
+**Global Evaluation**
 ![Res3.png](/Images/Res3.png)
 
 ## Conclusion
