@@ -27,7 +27,7 @@ Because of the sampling capacity and the delay a compromise was found.
 ### Model-View-Controller
 **MVC** pattern has been used to create the control GUI application that the user uses to manage the available effects. In particular, we used Pyo to realize the model. 
 
-###Pyo
+### Pyo
 Real-Time Digital Signal Processing (RT DSP) has been realized using Python and Python’s module called **Pyo**.
 Pyo contain classes for a wide variety of audio signal processing.
 With Pyo, the user will be able to include signal processing chains directly in Python scripts or projects, and to manipulate them in real-time through the interpreter.
